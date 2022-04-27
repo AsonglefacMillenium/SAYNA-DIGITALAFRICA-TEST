@@ -1,0 +1,129 @@
+.propos {
+    width: 100%
+}
+
+.propos__landing .landing__left p {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.propos__landing {
+    background-color: var(--yellow-color);
+}
+
+.propos__landing .landing__left {
+    margin-left: 80px;
+}
+
+.propos__landing .landing__image {
+    margin-right: 40px;
+}
+
+.propos__landing .landing__image .rotate__image {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.propos__red {
+    background-color: var(--red-color);
+    height: 80vh;
+    align-items: center;
+    color: var(--white-color);
+    padding-top: 1rem;
+}
+
+.propos__red h3 {
+    width: 300px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.propos__red img {
+    width: 40%;
+}
+
+.top {
+    margin-bottom: 3rem;
+}
+
+.propos__red__left {
+    margin-left: 80px;
+}
+
+.propos__red__right {
+    margin-right: 80px;
+}
+
+.propos__red__right input {
+    background-color: transparent;
+}
+
+.propos__red__right textarea {
+    background-color: transparent;
+    width: 20rem;
+    height: 5rem;
+    margin-top: 2rem;
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+}
+
+.propos__red__right button {
+    margin-top: 3rem;
+    width: 200px;
+    height: 50px;
+    padding: 1rem;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    font-family: 'Montserrat';
+    display: block;
+    align-self: center;
+    margin-left: 3rem;
+}
+
+.propos__blue {
+    background-color: var(--blue-color);
+    height: 80vh;
+}
+
+.propos__blue {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.propos__blue h1 {
+    color: var(--white-color);
+    margin-left: 80px;
+    margin-bottom: 3rem;
+}
+
+.propos__content {
+    align-self: center;
+    margin-bottom: 4rem;
+}
+
+.propos {
+    color: var(--white-color);
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+.propos p {
+    width: 500px;
+    text-align: start;
+}
+
+.propos__bottom {
+    width: 100%;
+}
+
+.propos__bottom p {
+    margin-bottom: 20px;
+}

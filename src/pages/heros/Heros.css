@@ -1,0 +1,28 @@
+.heros {
+    width: 100%;
+}
+
+.hero__landing {
+    height: 80vh;
+    background-image: url('../../Assets/Illustration/img35.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: var(--white-color);
+}
+
+.hero__landing__content {
+    position: absolute;
+    top: 60%;
+    margin-left: 80px;
+}
+
+.hero__landing__content h1 {
+    font-size: 80px;
+    margin-bottom: 5rem;
+}
+
+.hero__landing__content p {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
