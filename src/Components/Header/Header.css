@@ -1,0 +1,43 @@
+.header {
+    background-color: var(--red-color);
+    width: 100%;
+    height: 70px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .logo {
+    width: 15%;
+    align-items: center;
+    padding-left: 2rem;
+    margin-left: 60px;
+}
+
+.header .logo img {
+    width: 40px;
+    height: 50px;
+}
+
+.header .logo .logo__name {
+    height: 60px;
+    width: 80px;
+}
+
+.header .list {
+    width: 40%;
+    padding-right: 2rem;
+    margin-left: auto;
+}
+
+.list ul {
+    width: 100%;
+}
+
+.list ul li a {
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 20px;
+}

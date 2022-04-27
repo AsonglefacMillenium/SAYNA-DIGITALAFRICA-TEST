@@ -1,0 +1,174 @@
+.home {
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../Assets/Illustration/img1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    background-position: bottom;
+}
+
+.landing__background {}
+
+.landding__content {
+    align-items: center;
+    align-self: center;
+    height: 30%;
+    margin-left: 10rem;
+}
+
+.landing h1 {
+    color: var(--white-color);
+    font-weight: bold;
+    font-family: 'far from homecoming';
+    font-size: 60px;
+    margin-bottom: 5rem;
+}
+
+.buttons {
+    align-items: center;
+}
+
+.buttons h2 {
+    color: var(--white-color);
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.spidercards {
+    justify-content: center;
+    width: 100%;
+    background-color: var(--red-color);
+    height: 110vh;
+    align-items: center;
+    color: white;
+    padding-top: 3rem;
+}
+
+.spidercards h1 {
+    margin-left: 10rem;
+}
+
+.spidercards p {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.card {
+    width: 20%;
+    margin-right: 4rem;
+}
+
+.card p {
+    width: 300px;
+    align-self: flex-start;
+    margin-left: 0;
+    text-align: start;
+}
+
+.form__container {
+    align-items: flex-end;
+    width: 100%;
+    height: 40vw;
+    padding-top: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    background-position: bottom;
+    background-color: var(--blue-color);
+}
+
+.form__container .image__right img {
+    width: ;
+}
+
+.form__box {
+    color: white;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.form__box h1 {
+    font-size: 20px;
+}
+
+.form__box p {
+    font-size: 12px;
+    text-align: left;
+    margin-right: 2rem;
+}
+
+form input {
+    display: block;
+    width: 20rem;
+    margin-top: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.form__box form button {
+    margin-top: 3rem;
+    width: 200px;
+    height: 50px;
+    padding: 1rem;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    font-family: 'Montserrat';
+}
+
+.black__red {
+    background-color: var(--red-color);
+    justify-content: center;
+}
+
+.black__red .black__red__left {
+    margin-left: 80px;
+    color: var(--white-color);
+}
+
+.black__red__left h1 {
+    font-size: 20px;
+}
+
+.checkbox input {
+    display: block;
+    align-items: center;
+    width: 20px;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.checkbox {
+    align-items: center;
+    font-size: 14px;
+}
+
+.checkbox p {
+    align-self: center;
+    margin-top: 20px;
+}
+
+.black__red .black__red__left form button {
+    margin-top: 3rem;
+    width: 200px;
+    height: 50px;
+    padding: 1rem;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    font-family: 'Montserrat';
+}

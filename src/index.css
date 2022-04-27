@@ -1,0 +1,105 @@
+@import url('http://fonts.cdnfonts.com/css/far-from-homecoming');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,300;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --blue-color: #114c92;
+    --yellow-color: #f1c530;
+    --red-color: #b11313;
+    --dark-gray-color: rgba(0, 0, 0, 0.8);
+    --light-gray-color: rgba(0, 0, 0, 0.6);
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 27px;
+    --linear-gradient: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'far from homecoming';
+}
+
+h2 {
+    font-family: 'Montserrat';
+}
+
+h3 {
+    font-family: 'Montserrat';
+}
+
+p {
+    font-family: 'Montserrat';
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    display: -ms-flexbox;
+}
+
+.flex-one {
+    flex: 1;
+    -ms-flex: 1;
+}
+
+.flex-half {
+    flex: 1.5;
+    -ms-flex: 1.5;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+.no-white-space {
+    white-space: nowrap;
+}
+
+.flex-column {
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.a-j-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.a-j-space-between {
+    align-items: center;
+    justify-content: space-between;
+}

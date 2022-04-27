@@ -1,0 +1,29 @@
+.btn {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+.btn-primary {
+    background: var(--white-color);
+    color: var(--red-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus-within {
+    background: transparent;
+    color: var(--white-color);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--white-color);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-within {
+    background: var(---color);
+    color: #fff;
+}
