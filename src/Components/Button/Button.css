@@ -27,3 +27,12 @@
     background: var(---color);
     color: #fff;
 }
+
+@media (max-width:760px) {
+    .btn {
+        width: 200px;
+        font-size: 10px;
+        padding: 1rem;
+        border-radius: 0px;
+    }
+}

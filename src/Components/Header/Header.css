@@ -41,3 +41,15 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+@media (max-width:780px) {
+    .header {
+        justify-content: flex-start;
+    }
+    .list {
+        display: none;
+    }
+    .header .logo {
+        margin-left: 0px;
+    }
+}
